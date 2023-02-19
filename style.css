@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-image: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg);
+    background-size: cover;
+    background-position: 70%;
+    text-align: center;
+    padding-top: 35vh;
+}
+
+.header-text {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    height: 16rem;
+    min-width: 300px;
+}
+
+.getting-merrid {
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    padding-top: 3rem;
+    padding-bottom: 0.2rem;
+}
+
+hr {
+    height: 1px;
+    width: 10rem;
+    border-color: white;
+
+}
+
+.names {
+    font-size: 2.4rem;
+    letter-spacing: .2rem;
+    padding-top: .6rem;
+    padding-bottom: 1.4rem;
+    color: rgb(255, 211, 90);
+}
+
+.date {
+    font-size: 1.2rem;
+}
