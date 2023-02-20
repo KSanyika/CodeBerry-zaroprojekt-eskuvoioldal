@@ -2,15 +2,15 @@
     box-sizing: border-box;
 }
 
-/* === HEADER STYLE === */
+/* === HEADER STYLEs === */
 
 .header-itself {
-    background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg");
+    background-image: url(assets/IMG_3548.JPG);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70% center;
+    background-position: 65% 30%;
     display: table;
     text-align: center;
 }
@@ -18,11 +18,54 @@
 .header-inner-div {
     display: table-cell;
     vertical-align: middle;
+    min-width: 17rem;
 }
 
 .header-text {
     margin: 0 auto;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
+.getting-married {
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+}
+
+.getting-married::after{
+  display: block;
+  content: "";
+  background-color: #ffffff;
+  height: 1px;
+  width: 8rem;
+  margin: 1rem auto;
+}
+
+.header-text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
+    color: rgb(255, 218, 51);
+}
+
+.date {
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+/* === FOOTER STYLES === */
