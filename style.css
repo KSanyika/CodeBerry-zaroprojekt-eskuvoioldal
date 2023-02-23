@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
 
-/* === HEADER STYLEs === */
+
+/* === HEADER STYLES === */
 
 .header-itself {
     background-image: url(assets/IMG_3548.JPG);
@@ -94,4 +98,58 @@ footer {
 footer a {
     text-decoration: none;
     color:  rgb(255, 218, 51);
+}
+
+/* === MAIN SECTION STYLES === */
+
+
+img {
+    display: block;
+    height: 12rem;
+    margin: 0 auto;
+    padding-bottom: 1.2rem;
+}
+
+/* Styles for Locations */
+
+.locations {
+    height: 69rem;
+}
+
+.locations h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.locations h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+    letter-spacing: .06rem;
+    color: rgb(37, 37, 37);
+    text-align: center;
+
+}
+
+/* Styles for program */
+
+.program h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    padding-top: 3rem;
+
+    text-align: center;
 }
