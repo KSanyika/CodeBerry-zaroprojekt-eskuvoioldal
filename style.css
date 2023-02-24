@@ -1,3 +1,5 @@
+/* === OVERALL STYLES === */
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +7,31 @@ body {
     background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
 }
 
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+p, ul {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+
+}
+
+img {
+    display: block;
+    height: 12rem;
+    margin: 0 auto;
+    padding-bottom: 1.2rem;
+}
 
 /* === HEADER STYLES === */
 
@@ -34,7 +61,7 @@ body {
 }
 
 .getting-married {
-    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
     letter-spacing: .1rem;
     padding-bottom: .5rem;
 }
@@ -49,14 +76,12 @@ body {
 }
 
 .header-text h1 {
-    font-family: 'Great Vibes', cursive;
     font-size: 2.8rem;
     padding-bottom: 1rem;
     color: rgb(255, 218, 51);
 }
 
 .date {
-    font-family: 'Libre Baskerville', serif;
     letter-spacing: .1rem;
     font-size: 1rem;
 }
@@ -84,7 +109,6 @@ body {
 }
 
 footer {
-    padding-top: 2rem;
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -92,64 +116,161 @@ footer {
     background-color: rgb(61, 61, 61);
     color: #fff;
     text-align: center;
-    font-size: .8rem;
 }
 
-footer a {
+.footer {
+    padding-top: 1.6rem;
+}
+
+.footer p {
+    font-size: .8rem;
+    line-height: 1rem;
+    
+}
+
+.footer a {
     text-decoration: none;
+    line-height: 1rem;
     color:  rgb(255, 218, 51);
 }
 
 /* === MAIN SECTION STYLES === */
 
 
-img {
-    display: block;
-    height: 12rem;
-    margin: 0 auto;
-    padding-bottom: 1.2rem;
-}
-
 /* Styles for Locations */
 
 .locations {
-    height: 69rem;
+    height: 68rem;
+}
+
+.locations h1 {
+    padding-top: 3rem;
 }
 
 .locations h2 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 2.8rem;
-    padding-top: 3rem;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.2rem;
     font-weight: bolder;
     color: rgb(37, 37, 37);
-    text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
-.locations h4 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1rem;
+.locations p {
     font-weight: normal;
-    line-height: 1.6rem;
-    letter-spacing: .06rem;
     color: rgb(37, 37, 37);
     text-align: center;
-
 }
 
 /* Styles for program */
 
-.program h2 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 2.8rem;
+.program {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 218, 51);
     padding-top: 3rem;
+    padding-bottom: 1rem;
+}
 
+.program h2 {
+    padding-top: 3rem;
     text-align: center;
+}
+
+.program-content {
+    padding-top: 2rem;
+}
+
+.program-content p {
+    text-align: center;
+    padding: .5rem
+}
+
+ul {
+    padding: 2rem;
+}
+
+/* === Styles for gifts === */
+
+.gifts {
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.gifts h1 {
+    padding-bottom: 1rem;
+}
+
+.gifts img {
+    margin-top: 1rem;
+}
+
+.gifts p {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* === Styles for Questions and Answers === */
+
+.q-and-a {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgb(255, 218, 51);
+}
+
+.q-and-a h1 {
+    padding-block: 2rem;
+}
+
+.q-and-a h2 {
+    padding-bottom: 1.4rem;
+    font-size: 1.5rem;
+}
+
+.question {
+    font-weight: 600;
+    padding-bottom: .8rem;
+    padding: 1rem;
+}
+
+.answer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.answer-last {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+.q-and-a a {
+    color:  rgb(233, 104, 29);
+}
+
+.line::before{
+    display: block;
+    content: "";
+    background-color: rgb(255, 218, 51);
+    height: 2px;
+    width: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+}
+
+/* === Styles for contact === */
+
+.contact {
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact h1 {
+    padding: 1.4rem;
+}
+
+.contact p {
+    padding: .6rem;
+}
+
+.contact a {
+    color: rgb(233, 104, 29);
 }
