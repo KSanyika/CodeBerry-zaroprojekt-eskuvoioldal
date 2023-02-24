@@ -342,6 +342,8 @@ ul {
     }
 
     .question-group {
+        margin: none;
+        padding: none;
         display: inline-block;
         text-align: left;
         vertical-align: top;
