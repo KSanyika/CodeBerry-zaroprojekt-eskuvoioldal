@@ -274,3 +274,80 @@ ul {
 .contact a {
     color: rgb(233, 104, 29);
 }
+
+/* === RESPONSIVITY for PC === */
+
+@media screen and (min-width: 1250px) {
+    
+/* === Header === */
+    
+    .header-itself {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-text {
+        padding: 2rem;
+    }
+    
+    .getting-married {
+        font-size: 2rem;
+        padding-bottom: .5rem;
+    }
+    
+    .getting-married::after{
+      height: 2px;
+      width: 12rem;
+      margin: 2rem auto;
+    }
+    
+    .header-text h1 {
+        font-size: 6rem;
+        padding-bottom: 2rem;
+    }
+    
+    .date {
+        letter-spacing: .1rem;
+        font-size: 1.6rem;
+    }
+    
+    .date::before,
+    .date::after {
+      height: 2px;
+    }
+    /* === Locations === */
+
+    .locations {
+        height: 30rem;
+        text-align: center;
+    }
+
+    .locations div {
+        display: inline-block;
+        margin: 0 4rem;
+    }
+
+    /* === Program === */
+
+    .program ul {
+        padding-left: 38%;
+    }
+
+    /* === Questions and Answers === */
+
+    .q-and-a {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .question-group {
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        width: 30vw;
+    }
+    .line::before {
+        display: none;
+    }
+}
